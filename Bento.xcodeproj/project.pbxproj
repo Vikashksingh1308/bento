@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E31B07398367CC729EAB9D7 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE29C012FD7CBDF9229AEE6 /* WindowManager.swift */; };
+		2B886279A89C7DD6B7FFA646 /* FileLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315791F0D60A8A9EACBF5AD /* FileLog.swift */; };
+		54843A40C0A5530ADB2BF2BD /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5452511B5430A6199287E /* UserPreferences.swift */; };
+		65A59ED455AA9AEB9683A2F1 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BC0DF7C25F6B121DB9C7F2 /* StatusBarController.swift */; };
+		697D40974760297E8F9D249A /* DragGestureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E026799AC2E2D30E8E39A /* DragGestureState.swift */; };
+		6EC4BEEA1A4A3E5003360DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB036BAB62057DE45BBEC7F /* Assets.xcassets */; };
+		71EC31D05E3F050EDC6214D5 /* DragSnapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88D8B5EAD1EEF756D628ADF /* DragSnapManager.swift */; };
+		7A376DE43562EEBAD07755BC /* AccessibilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8737084F2E2A1667E9F1489 /* AccessibilityHelper.swift */; };
+		7B542C6EB6278E0047D6439E /* SnapOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37AB5A2D0E748A35AC93CE /* SnapOverlayWindow.swift */; };
+		95D933E09487CFF3879AB788 /* SnapZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ABE84E0BA0C6951989EE5D /* SnapZone.swift */; };
+		968B729F6A1F6B499476E4D8 /* KeyRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2EE831E6AC17D70395D458 /* KeyRecorderView.swift */; };
+		AF7E495CC449C994537F5588 /* DisplayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE59251F0C7A9B8CD98F7 /* DisplayHelper.swift */; };
+		B7B8741FBCC74378160250DE /* SnapIconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4F73875F9529901D0E2E0 /* SnapIconGenerator.swift */; };
+		DE3533CA56943B3B261376A0 /* SnapAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCAA75D7385ECAD476425C /* SnapAction.swift */; };
+		E7D19AECD271724EBF00359E /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94958E79F696A47AFE35453 /* HotkeyManager.swift */; };
+		EFA09A06F2C0A8B9EAADBD25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61E0B5184F594FAACB7628 /* AppDelegate.swift */; };
+		F6368D66B74679CC63ADEE3C /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4EA8C359F6394C3B78DBD /* PreferencesWindow.swift */; };
+		FF59BC71041F091E9F5D6DE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD03E252863E66AC5FFD93F /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F74D6327E4C2A699D52C28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28573022B4A67500B2C4905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E92F0A21CDCFEAB5D38D71;
+			remoteInfo = Bento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1530B006B4B46598CB828806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CD03E252863E66AC5FFD93F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1DDCAA75D7385ECAD476425C /* SnapAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapAction.swift; sourceTree = "<group>"; };
+		2BE29C012FD7CBDF9229AEE6 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		3DBDE59251F0C7A9B8CD98F7 /* DisplayHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayHelper.swift; sourceTree = "<group>"; };
+		3ED4F73875F9529901D0E2E0 /* SnapIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapIconGenerator.swift; sourceTree = "<group>"; };
+		50361DA1FBA39934BD3333ED /* Nudge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7405730654BA450CB29B76DC /* Bento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bento.entitlements; sourceTree = "<group>"; };
+		7C37AB5A2D0E748A35AC93CE /* SnapOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapOverlayWindow.swift; sourceTree = "<group>"; };
+		7D2E026799AC2E2D30E8E39A /* DragGestureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureState.swift; sourceTree = "<group>"; };
+		9B2EE831E6AC17D70395D458 /* KeyRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRecorderView.swift; sourceTree = "<group>"; };
+		9FF5452511B5430A6199287E /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		B315791F0D60A8A9EACBF5AD /* FileLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLog.swift; sourceTree = "<group>"; };
+		B4BC0DF7C25F6B121DB9C7F2 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		B8737084F2E2A1667E9F1489 /* AccessibilityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelper.swift; sourceTree = "<group>"; };
+		C8ABE84E0BA0C6951989EE5D /* SnapZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapZone.swift; sourceTree = "<group>"; };
+		D94958E79F696A47AFE35453 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		DBB036BAB62057DE45BBEC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD4EA8C359F6394C3B78DBD /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		E76839C99030AD6A563C1705 /* NudgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NudgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88D8B5EAD1EEF756D628ADF /* DragSnapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragSnapManager.swift; sourceTree = "<group>"; };
+		FD61E0B5184F594FAACB7628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4078A7692B569383D7993033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD61E0B5184F594FAACB7628 /* AppDelegate.swift */,
+				1530B006B4B46598CB828806 /* Info.plist */,
+				1CD03E252863E66AC5FFD93F /* main.swift */,
+				7405730654BA450CB29B76DC /* Bento.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4613343236BBB2058CB58E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50361DA1FBA39934BD3333ED /* Nudge.app */,
+				E76839C99030AD6A563C1705 /* NudgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A05DA238825B60CCF790556 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8737084F2E2A1667E9F1489 /* AccessibilityHelper.swift */,
+				3DBDE59251F0C7A9B8CD98F7 /* DisplayHelper.swift */,
+				B315791F0D60A8A9EACBF5AD /* FileLog.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7986CC1FE44B0CA21C484581 = {
+			isa = PBXGroup;
+			children = (
+				93311BADC21EB8AE8879A582 /* Bento */,
+				4613343236BBB2058CB58E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2ECE0B9702BB2B5AD19A25 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9B2EE831E6AC17D70395D458 /* KeyRecorderView.swift */,
+				DDD4EA8C359F6394C3B78DBD /* PreferencesWindow.swift */,
+				3ED4F73875F9529901D0E2E0 /* SnapIconGenerator.swift */,
+				7C37AB5A2D0E748A35AC93CE /* SnapOverlayWindow.swift */,
+				B4BC0DF7C25F6B121DB9C7F2 /* StatusBarController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9103B9516CB3EE19A31A02D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7D2E026799AC2E2D30E8E39A /* DragGestureState.swift */,
+				E88D8B5EAD1EEF756D628ADF /* DragSnapManager.swift */,
+				D94958E79F696A47AFE35453 /* HotkeyManager.swift */,
+				1DDCAA75D7385ECAD476425C /* SnapAction.swift */,
+				C8ABE84E0BA0C6951989EE5D /* SnapZone.swift */,
+				2BE29C012FD7CBDF9229AEE6 /* WindowManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93311BADC21EB8AE8879A582 /* Bento */ = {
+			isa = PBXGroup;
+			children = (
+				DBB036BAB62057DE45BBEC7F /* Assets.xcassets */,
+				4078A7692B569383D7993033 /* App */,
+				9103B9516CB3EE19A31A02D5 /* Core */,
+				5A05DA238825B60CCF790556 /* Helpers */,
+				A8564AB50A7597CFC6034F0D /* Models */,
+				8D2ECE0B9702BB2B5AD19A25 /* UI */,
+			);
+			path = Bento;
+			sourceTree = "<group>";
+		};
+		A8564AB50A7597CFC6034F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FF5452511B5430A6199287E /* UserPreferences.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A742DCEC817F42A1604B38E8 /* NudgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AADD3045BE9E02B307915F /* Build configuration list for PBXNativeTarget "NudgeTests" */;
+			buildPhases = (
+				EBDD267C64C5A5D2A09124FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F965375C473C14EE52D75A2 /* PBXTargetDependency */,
+			);
+			name = NudgeTests;
+			packageProductDependencies = (
+			);
+			productName = NudgeTests;
+			productReference = E76839C99030AD6A563C1705 /* NudgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9E92F0A21CDCFEAB5D38D71 /* Nudge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B75B96FCBAD0CD6D8775F /* Build configuration list for PBXNativeTarget "Bento" */;
+			buildPhases = (
+				13AF0C7C1AB344344DF84911 /* Sources */,
+				E666B6DABE52E46742E9AE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bento;
+			packageProductDependencies = (
+			);
+			productName = Bento;
+			productReference = 50361DA1FBA39934BD3333ED /* Nudge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28573022B4A67500B2C4905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A742DCEC817F42A1604B38E8 = {
+						DevelopmentTeam = "$(NUDGE_TEAM_ID)";
+						ProvisioningStyle = Manual;
+					};
+					E9E92F0A21CDCFEAB5D38D71 = {
+						ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+						DevelopmentTeam = "$(NUDGE_TEAM_ID)";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5F9CF0F45818684D961EEB9A /* Build configuration list for PBXProject "Bento" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7986CC1FE44B0CA21C484581;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4613343236BBB2058CB58E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E92F0A21CDCFEAB5D38D71 /* Nudge */,
+				A742DCEC817F42A1604B38E8 /* NudgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E666B6DABE52E46742E9AE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC4BEEA1A4A3E5003360DEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AF0C7C1AB344344DF84911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A376DE43562EEBAD07755BC /* AccessibilityHelper.swift in Sources */,
+				EFA09A06F2C0A8B9EAADBD25 /* AppDelegate.swift in Sources */,
+				AF7E495CC449C994537F5588 /* DisplayHelper.swift in Sources */,
+				697D40974760297E8F9D249A /* DragGestureState.swift in Sources */,
+				71EC31D05E3F050EDC6214D5 /* DragSnapManager.swift in Sources */,
+				2B886279A89C7DD6B7FFA646 /* FileLog.swift in Sources */,
+				E7D19AECD271724EBF00359E /* HotkeyManager.swift in Sources */,
+				968B729F6A1F6B499476E4D8 /* KeyRecorderView.swift in Sources */,
+				F6368D66B74679CC63ADEE3C /* PreferencesWindow.swift in Sources */,
+				DE3533CA56943B3B261376A0 /* SnapAction.swift in Sources */,
+				B7B8741FBCC74378160250DE /* SnapIconGenerator.swift in Sources */,
+				7B542C6EB6278E0047D6439E /* SnapOverlayWindow.swift in Sources */,
+				95D933E09487CFF3879AB788 /* SnapZone.swift in Sources */,
+				65A59ED455AA9AEB9683A2F1 /* StatusBarController.swift in Sources */,
+				54843A40C0A5530ADB2BF2BD /* UserPreferences.swift in Sources */,
+				0E31B07398367CC729EAB9D7 /* WindowManager.swift in Sources */,
+				FF59BC71041F091E9F5D6DE3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDD267C64C5A5D2A09124FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F965375C473C14EE52D75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E92F0A21CDCFEAB5D38D71 /* Nudge */;
+			targetProxy = 5F74D6327E4C2A699D52C28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19C4E00F58A40EC76042F1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(NUDGE_TEAM_ID)";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Bento/App/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.bento.Bento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		3CA14BCD99A889C2B485A64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bento.app/Contents/MacOS/Nudge";
+			};
+			name = Release;
+		};
+		99CC004616FEEFEDB9BCAB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bento/App/Bento.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = Bento/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B97125FC056A4FAD1655EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bento.app/Contents/MacOS/Nudge";
+			};
+			name = Debug;
+		};
+		AF90AE01151595B8310E5CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bento/App/Bento.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = Bento/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEFB3318B3A4DD4757C3C56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(NUDGE_TEAM_ID)";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Bento/App/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.bento.Bento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6B75B96FCBAD0CD6D8775F /* Build configuration list for PBXNativeTarget "Bento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CC004616FEEFEDB9BCAB1C /* Debug */,
+				AF90AE01151595B8310E5CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F9CF0F45818684D961EEB9A /* Build configuration list for PBXProject "Bento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFB3318B3A4DD4757C3C56D /* Debug */,
+				19C4E00F58A40EC76042F1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9AADD3045BE9E02B307915F /* Build configuration list for PBXNativeTarget "NudgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B97125FC056A4FAD1655EBE /* Debug */,
+				3CA14BCD99A889C2B485A64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28573022B4A67500B2C4905 /* Project object */;
+}
