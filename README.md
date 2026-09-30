@@ -73,7 +73,7 @@ Snap, resize, and organize your windows effortlessly with keyboard shortcuts and
 ### Quick Install
 1. Download the latest **Bento.dmg** from [Releases](../../releases)
 2. Open the DMG and drag **Bento** to your Applications folder
-3. Launch Bento — you'll find it in your menu bar 🎉
+3. Launch Bento - you'll find it in your menu bar 🎉
 
 > **First launch:** Right-click **Bento.app** → **Open** to bypass macOS Gatekeeper (only needed once).
 
